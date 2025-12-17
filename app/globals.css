@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary ICG Navy - from logo */
+  --color-icg-navy: #0B1F2E;
+  --color-icg-navy-dark: #081620;
+
+  /* Secondary/Accent colors */
+  --color-icg-blue: #1E3A5F;
+  --color-icg-blue-light: #2E4A6F;
+
+  /* Background colors */
+  --color-icg-light: #E8F0F7;
+  --color-icg-lighter: #F5F9FC;
+
+  /* Legacy aliases for backward compatibility */
+  --color-icg-teal: #1E3A5F;
+  --color-icg-mint: #E8F0F7;
+  --color-icg-dark: #0B1F2E;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
